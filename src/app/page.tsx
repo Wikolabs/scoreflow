@@ -128,16 +128,10 @@ export default function ScoreFlow() {
                 </div>
               ))}
             </div>
-            <div className="bg-emerald-950 rounded-2xl p-8 text-white">
-              <blockquote className="text-lg font-medium leading-relaxed mb-6" style={{ fontFamily: "var(--font-display)" }}>
-                &ldquo;Nos SDRs ont enfin un vrai outil. Le pipeline est propre, les scores sont fiables, et notre closer ferme 1 deal sur 3 au lieu de 1 sur 8 avant ScoreFlow.&rdquo;
-              </blockquote>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-emerald-700 flex items-center justify-center font-bold">CR</div>
-                <div>
-                  <div className="font-semibold text-sm">Camille R.</div>
-                  <div className="text-emerald-400 text-xs">VP Sales, SaaS B2B</div>
-                </div>
+            <div className="bg-emerald-950 rounded-2xl p-8 text-white flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-5xl font-bold text-emerald-400 mb-4" style={{ fontFamily: "var(--font-display)" }}>1 deal / 3</div>
+                <p className="text-emerald-300 text-lg">taux de closing avec ScoreFlow<br /><span className="text-emerald-500">vs 1 deal / 8 avant</span></p>
               </div>
             </div>
           </div>
@@ -151,9 +145,14 @@ export default function ScoreFlow() {
             Pipeline qualifié dès cette semaine
           </h2>
           <p className="text-emerald-100 text-xl mb-10">Intégration CRM en 2h. Premiers scores en temps réel.</p>
-          <a href="mailto:hello@wikolabs.com?subject=ScoreFlow — Demande de démo" className="inline-block bg-white text-emerald-700 hover:bg-emerald-50 px-10 py-5 rounded-xl font-bold text-xl transition-all shadow-xl">
-            Qualifier mes leads →
-          </a>
+          <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+            <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-emerald-700 hover:bg-emerald-50 px-10 py-5 rounded-xl font-bold text-xl transition-all shadow-xl">
+              📅 Réserver un créneau →
+            </a>
+            <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20ScoreFlow%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-emerald-700 hover:bg-emerald-50 px-10 py-5 rounded-xl font-bold text-xl transition-all shadow-xl" style={{ background: "#25d366", borderColor: "#25d366" }}>
+              💬 WhatsApp →
+            </a>
+          </div>
           <p className="text-emerald-200 text-sm mt-5">14 jours gratuits. Aucune configuration complexe.</p>
         </div>
       </section>
