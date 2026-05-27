@@ -1,4 +1,4 @@
-export default function ScoreFlow() {
+﻿export default function ScoreFlow() {
   return (
     <div className="min-h-screen" style={{ fontFamily: "var(--font-body)" }}>
 
@@ -163,7 +163,7 @@ export default function ScoreFlow() {
           <span className="font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>ScoreFlow</span>
           <p className="text-sm">© 2025 ScoreFlow — Un produit <a href="https://wikolabs.com" className="text-emerald-400 hover:text-emerald-200">Wikolabs</a></p>
           <div className="flex gap-6 text-sm">
-            <a href="mailto:hello@wikolabs.com" className="hover:text-emerald-200 transition-colors">Contact</a>
+            <a href="mailto:team@wikolabs.com" className="hover:text-emerald-200 transition-colors">Contact</a>
             <a href="https://wikolabs.com" className="hover:text-emerald-200 transition-colors">Wikolabs</a>
           </div>
         </div>
